@@ -1,6 +1,5 @@
 .wrapper{
   display: flex;
-  width: 100vw;
 }
 
 .side_bar{
@@ -56,6 +55,25 @@
 .chat_top{
   height: 100px;
   padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat_name{
+  font-size: 24px;
+  color: #333;
+  margin-top: 36px;
+}
+
+.end_btn{
+  margin-top: 40px;
+}
+
+.end_btn a {
+  text-decoration: none;
+  color: darkred;
+  border: 1px solid darkred;
+  padding: 20px;
 }
 
 .message{
