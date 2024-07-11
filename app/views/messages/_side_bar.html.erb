@@ -9,7 +9,7 @@
 
 <div class="side_main">
   <div class="chat_room">
-   <%= current_user.rooms.each do |room| %>
+   <% current_user.rooms.each do |room| %>
     <div class="room">
         <div class="room-name">
           <a href="#"><%= room.name %></a>
